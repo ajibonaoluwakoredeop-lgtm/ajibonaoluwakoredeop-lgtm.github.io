@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Academic website of Oluwakorede Ajibona, researcher in African political philosophy, AI ethics, and technology governance.">
+  <meta name="author" content="Oluwakorede Ajibona">
+  <meta name="theme-color" content="#14263d">
+  <title>Oluwakorede Ajibona | Academic Website</title>
+  <style>
+    :root {
+      --navy:#14263d; --ink:#243247; --muted:#64748b; --paper:#fbfaf7;
+      --line:#e5e7eb; --accent:#a66b3f; --white:#fff; --pale:#f1eee8;
+    }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; color:var(--ink); background:var(--paper);
+      font-family: Georgia, "Times New Roman", serif; line-height:1.7; }
+    a { color:var(--accent); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    .sans, nav, .eyebrow, .button, .meta, footer, .tag { font-family:Arial, Helvetica, sans-serif; }
+    .top { background:var(--navy); color:white; }
+    .navwrap { max-width:1100px; margin:auto; padding:18px 26px;
+      display:flex; align-items:center; justify-content:space-between; gap:20px; }
+    .brand { color:white; font-family:Arial,sans-serif; font-size:15px; font-weight:700; letter-spacing:.03em; }
+    nav { display:flex; flex-wrap:wrap; gap:20px; font-size:13px; }
+    nav a { color:#e5eaf0; }
+    .hero { max-width:1100px; margin:auto; padding:76px 26px 82px;
+      display:grid; grid-template-columns:1.5fr .7fr; gap:54px; align-items:center; }
+    .eyebrow { color:#d6b18f; text-transform:uppercase; letter-spacing:.16em;
+      font-size:11px; font-weight:700; }
+    h1 { font-size:clamp(42px,6vw,68px); line-height:1.05; color:white;
+      font-weight:400; margin:16px 0 20px; letter-spacing:-.035em; }
+    .hero p { color:#dce3eb; max-width:650px; font-size:19px; margin:0 0 28px; }
+    .button { display:inline-block; border:1px solid #d6b18f; color:white;
+      padding:11px 17px; font-size:12px; letter-spacing:.04em; margin:4px 8px 4px 0; }
+    .button.light { background:#d6b18f; color:#14263d; }
+    .portrait { width:100%; aspect-ratio:4/5; border:1px solid #526176;
+      display:flex; align-items:center; justify-content:center; text-align:center;
+      color:#dce3eb; background:linear-gradient(145deg,#263d59,#1a2d45);
+      padding:24px; font-family:Arial,sans-serif; font-size:13px; }
+    .portrait img { width:100%; height:100%; object-fit:cover; }
+    main { max-width:1000px; margin:auto; padding:0 26px 70px; }
+    section { padding:55px 0; border-bottom:1px solid var(--line); scroll-margin-top:24px; }
+    h2 { font-size:30px; font-weight:400; color:var(--navy); margin:0 0 22px; }
+    h3 { font-size:19px; color:var(--navy); font-weight:400; margin:0 0 8px; }
+    p { margin:0 0 15px; }
+    .intro { font-size:19px; max-width:850px; }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+    .item { background:white; border:1px solid var(--line); padding:22px; }
+    .item p { color:var(--muted); font-family:Arial,sans-serif; font-size:13px; margin:0; }
+    .project { padding:18px 0; border-top:1px solid var(--line); }
+    .meta { color:var(--muted); font-size:12px; text-transform:uppercase; letter-spacing:.1em; }
+    .note { background:var(--pale); padding:18px 20px; font-family:Arial,sans-serif;
+      color:#5b6470; font-size:13px; }
+    .links { display:flex; flex-wrap:wrap; gap:18px; font-family:Arial,sans-serif; font-size:13px; }
+    footer { background:#101f32; color:#dce3eb; padding:28px 26px; font-size:12px; }
+    .footinner { max-width:1000px; margin:auto; display:flex; justify-content:space-between; gap:20px; flex-wrap:wrap; }
+    @media(max-width:700px) {
+      .navwrap { align-items:flex-start; flex-direction:column; }
+      nav { gap:12px; }
+      .hero { grid-template-columns:1fr; padding-top:54px; gap:28px; }
+      .portrait { max-width:280px; }
+      .grid { grid-template-columns:1fr; }
+    }
+  </style>
+</head>
+<body>
+<header class="top">
+  <div class="navwrap">
+    <a class="brand" href="#">OLUWAKOREDE AJIBONA</a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a><a href="#research">Research</a>
+      <a href="#projects">Projects</a><a href="#publications">Publications</a>
+      <a href="#cv">CV</a><a href="#contact">Contact</a>
+    </nav>
+  </div>
+  <div class="hero">
+    <div>
+      <div class="eyebrow">Academic profile · University of Kansas</div>
+      <h1>Oluwakorede Opeyemi<br>Ajibona</h1>
+      <p>PhD candidate in Philosophy at the University of Kansas, working on the political philosophy of AI, ethics, Black Studies, and the politics of emerging technologies.</p>
+      <a class="button light" href="#research">EXPLORE MY RESEARCH</a>
+      <a class="button" href="#contact">GET IN TOUCH</a>
+    </div>
+    <div class="portrait">
+      <!-- Replace portrait.jpg with your professional photograph. -->
+      <img src="portrait.jpg" alt="Portrait of Oluwakorede Ajibona">
+    </div>
+  </div>
+</header>
+
+<main>
+  <section id="about">
+    <div class="eyebrow" style="color:#a66b3f">01 · Biography</div>
+    <h2>About</h2>
+    <p class="intro">I am a researcher in the Department of Philosophy at the University of Kansas, with research interests in African political philosophy, the ethics and governance of artificial intelligence, and the social and political implications of digital technologies.</p>
+    <p>My work examines how technological systems shape power, democratic life, development, and relations between the Global North and Global South. I am particularly interested in African and other Global South perspectives on responsible AI development, digital colonialism, and technology governance.</p>
+    <p>I am also affiliated with the University of Kansas Center for Cyber-Social Dynamics (CCSD).</p>
+  </section>
+
+  <section id="research">
+    <div class="eyebrow" style="color:#a66b3f">02 · Areas of inquiry</div>
+    <h2>Research interests</h2>
+    <div class="grid">
+      <div class="item"><h3>African Political Philosophy</h3><p>Political thought, social transformation, democracy, and African intellectual traditions.</p></div>
+      <div class="item"><h3>AI Ethics and Governance</h3><p>Responsible AI development, accountability, regulation, and the distribution of technological benefits and risks.</p></div>
+      <div class="item"><h3>Digital Colonialism</h3><p>Platform power, digital sovereignty, data extraction, and technology relations between the Global North and South.</p></div>
+      <div class="item"><h3>Technology and Environmental Justice</h3><p>The environmental and socioeconomic consequences of AI infrastructure and digital development.</p></div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="eyebrow" style="color:#a66b3f">03 · Current themes</div>
+    <h2>Research projects</h2>
+    <div class="project">
+      <div class="meta">AI governance · Africa</div>
+      <h3>Forecasting Socio-Economic Futures of AI in Africa</h3>
+      <p>Research agenda on the social and economic futures of AI in Africa, with attention to inclusive governance, local knowledge, and institutional capacity.</p>
+    </div>
+    <div class="project">
+      <div class="meta">AI governance · Brazil</div>
+      <h3>Towards a Globally Responsible Development of AI: Exploring Brazil as a Key Player</h3>
+      <p>Examines Brazil's role in global AI governance and debates about digital colonialism, platform power, and regulatory autonomy.</p>
+    </div>
+    <div class="project">
+      <div class="meta">Democracy · Environment</div>
+      <h3>AI, Democracy and Environmental Justice in Africa</h3>
+      <p>Examines the democratic and environmental implications of AI infrastructure and pathways toward more participatory technology governance. Related article published in <i>The Paris Journal on AI &amp; Digital Ethics</i> (2026).</p>
+    </div>
+    <div class="project">
+      <div class="meta">Digital humanities · Lagos</div>
+      <h3>Lagos Data Center Justice Project</h3>
+      <p>Developing an interdisciplinary project on digital infrastructure, environmental justice, housing, and social inequality in Lagos, Nigeria, using digital mapping, databases, and community knowledge.</p>
+    </div>
+  </section>
+
+  <section id="publications">
+    <div class="eyebrow" style="color:#a66b3f">04 · Scholarship</div>
+    <h2>Publications & presentations</h2>
+    <h3>Publication</h3>
+    <div class="project"><p>Ajibona, O. (2026). “AI, Democracy and Environmental Justice in Africa.” <i>The Paris Journal on AI &amp; Digital Ethics</i>. <a href="https://doi.org/10.65701/zasvrto7he">https://doi.org/10.65701/zasvrto7he</a>.</p></div>
+    <h3>Policy report</h3>
+    <div class="project"><p>Podar, H., Baffour, J. A., <strong>Ajibona, O.</strong>, et al. (2025). <i>Bridging the international AI governance divide: Key strategies for including the Global South</i>. Encode Justice. <a href="https://encodeai.org/wp-content/uploads/2025/01/Encode-Justice-Report_Safety-Summit_Global-North.pdf">Read report</a>.</p></div>
+    <h3>Works in progress</h3>
+    <ul>
+      <li>“Silenced or dormant? Indigenous Yorùbá moral registers in large language models and the occasions that activate them” (with S. Ajao and D. Reshef Kera), working manuscript.</li>
+      <li>“Rehearsing Sovereignty: A Synthetic Roundtable as an Instrument for Studying Performed Authority in the AI Cold War” (with D. Reshef Kera, J. Usher, E. Keller, and A. Cohen), working manuscript.</li>
+      <li>“Is African Philosophy Racist?”, working manuscript.</li>
+      <li>“Structural Police Racism as Institutional Corruption”, working manuscript.</li>
+      <li>“Against Digital Colonialism” (2026), working manuscript.</li>
+    </ul>
+    <h3>Selected conference presentations</h3>
+    <ul>
+      <li>“Conceptualizing ‘Global Africa’ in the Age of Digital Technology,” Mid-Atlantic African and African American Studies Conference, Missouri State University (2026).</li>
+      <li>“Beyond Digital Colonialism: AI Nationalism, Sovereignty, and the Misframing of Africa's Technological Future,” EASST, AGH Krakow, Poland (2026).</li>
+      <li>“Beyond Digital Colonialism: Normative Foundations for AI Law and Safety in Africa,” Center for Law and AI Safety Writers Retreat, San Antonio (2026).</li>
+      <li>“AI, Democracy and Environmental Justice in Africa,” Paris Conference on AI and Digital Ethics, École des Mines de Paris (2026).</li>
+      <li>“Making Normative Political Philosophy of Computing an African Thing,” Philosophy, Technology and Society Workshop, University of Ibadan (2025).</li>
+      <li>“Against Digital Colonialism,” Workshop on Political Philosophy and AI, Australian National University (2024).</li>
+    </ul>
+  </section>
+
+  <section id="cv">
+    <div class="eyebrow" style="color:#a66b3f">05 · Curriculum vitae</div>
+    <h2>Academic CV</h2>
+    <p>For a full overview of my academic background, research experience, publications, presentations, and professional activities, please consult my curriculum vitae.</p>
+    <a class="button" style="color:#14263d;border-color:#a66b3f" href="cv.pdf" target="_blank" rel="noopener">DOWNLOAD ACADEMIC CV (PDF)</a>
+    <p class="meta" style="margin-top:12px">Upload your file as <strong>cv.pdf</strong> in the website's main folder.</p>
+  </section>
+
+  <section id="contact">
+    <div class="eyebrow" style="color:#a66b3f">06 · Correspondence</div>
+    <h2>Contact</h2>
+    <p>I welcome inquiries about research collaboration, academic exchange, speaking opportunities, and related scholarly work.</p>
+    <p><strong>Email:</strong> <a href="mailto:ajibona.oluwakorede@ku.edu">ajibona.oluwakorede@ku.edu</a></p>
+    <div class="links">
+      <a href="https://orcid.org/" target="_blank" rel="noopener">Add ORCID profile</a>
+      <a href="https://scholar.google.com/" target="_blank" rel="noopener">Add Google Scholar profile</a>
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener">Add LinkedIn profile</a>
+    </div>
+    <p class="meta" style="margin-top:18px">Personal ORCID, Google Scholar, and LinkedIn profile URLs can be added before launch.</p>
+  </section>
+</main>
+<footer>
+  <div class="footinner">
+    <span>© <span id="year"></span> Oluwakorede Ajibona</span>
+    <span>Academic website · University of Kansas</span>
+  </div>
+</footer>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
